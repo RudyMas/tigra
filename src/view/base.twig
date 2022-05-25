@@ -1,0 +1,40 @@
+<!-- version 1.0.0.0 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% set BASE_URL = constant('BASE_URL') %}
+    {% block head %}
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% if redirect %}
+            <meta http-equiv="refresh" content="{{ redirect.sleep }};url={{ BASE_URL }}{{ redirect.page }}">
+        {% endif %}
+        <meta name="revisit-after" content="7 days">
+        <meta name="author" content="Rudy Mas">
+        <meta name="contact" content="rudy.mas@rmsoft.be">
+        <meta name="keywords" content="Tiger, example, page">
+        <meta name="description" content="Example of a TWIG page">
+        <meta name="robots" content="index,follow">
+        <meta name="rating" content="General">
+        <title>{% block title %}Tiger Twig{% endblock %}</title>
+    {% endblock %}
+    {% block jvscript %}
+        <script>
+            let base_url = "{{ BASE_URL }}";
+        </script>
+        <script src="{{ BASE_URL }}/node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="{{ BASE_URL }}/node_modules/popper.js/dist/popper.min.js"></script>
+        <script src="{{ BASE_URL }}/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="{{ BASE_URL }}/vendor/tiger/menu/src/js/bootstrap-4-navbar.js"></script>
+    {% endblock %}
+    {% block css %}
+        <link href="{{ BASE_URL }}/node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+        <link href="{{ BASE_URL }}/vendor/tiger/menu/src/css/bootstrap-4-navbar.css" rel="stylesheet">
+        <link href="{{ BASE_URL }}/public/css/t_core.css" rel="stylesheet">
+    {% endblock %}
+</head>
+<body>
+<div id="container">{% block container %}{% endblock %}</div>
+</body>
+</html>

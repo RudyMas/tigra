@@ -1,0 +1,393 @@
+/*
+Tiger special CSS options
+Version 1.0.0 (SCSS-version)
+*/
+#bg-middle, #bg-bottom-right, #bg-top-left {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+#bg-top-left {
+  background-color: #8892bf;
+  clip-path: polygon(0 0, 95% 0, 30% 30%, 0 95%);
+  z-index: -2;
+}
+
+#bg-bottom-right {
+  background-color: #dd0031;
+  clip-path: polygon(100% 100%, 100% 5%, 70% 70%, 5% 100%);
+  z-index: -2;
+}
+
+#bg-middle {
+  background-color: #4f5b93;
+  clip-path: polygon(0 100%, 0 95%, 30% 30%, 95% 0, 100% 0, 100% 5%, 70% 70%, 5% 100%);
+  z-index: -1;
+}
+
+#version-back-button {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+}
+#version-back-button button {
+  font-size: 20px;
+  line-height: 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 1000px;
+  box-shadow: 0 0 0 1px black;
+}
+#version-back-button button:before {
+  content: "Close";
+}
+#version-back-button button:hover {
+  background-color: darkgray;
+  color: black;
+}
+
+button {
+  cursor: pointer;
+}
+
+.background {
+  background-color: white !important;
+}
+
+.background-white {
+  background-color: white !important;
+}
+
+.background-black {
+  background-color: black !important;
+}
+
+.background-inverse {
+  background-color: black !important;
+}
+
+.background-red {
+  background-color: red !important;
+}
+
+.background-green {
+  background-color: green !important;
+}
+
+.background-blue {
+  background-color: blue !important;
+}
+
+.background-yellow {
+  background-color: yellow !important;
+}
+
+.background-orange {
+  background-color: orange !important;
+}
+
+.background-purple {
+  background-color: purple !important;
+}
+
+.background-primary {
+  background-color: #007bff !important;
+}
+
+.background-secondary {
+  background-color: #868e96 !important;
+}
+
+.background-success {
+  background-color: #28a745 !important;
+}
+
+.background-danger {
+  background-color: #dc3545 !important;
+}
+
+.background-warning {
+  background-color: #ffc107 !important;
+}
+
+.background-info {
+  background-color: #17a2b8 !important;
+}
+
+.background-light {
+  background-color: #f8f9fa !important;
+}
+
+.background-dark {
+  background-color: #343a40 !important;
+}
+
+.t-center-element {
+  position: absolute;
+  color: black !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 767.98px) {
+  .t-center-element {
+    position: page;
+    top: 30px;
+    left: 5%;
+    right: 5%;
+    transform: none;
+  }
+}
+.t-input {
+  background-color: white;
+  border: 1px solid darkgray;
+  border-radius: 1000px;
+}
+
+.t-label {
+  display: inline-block;
+  border: 1px solid darkgray;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 5px;
+  padding: 2px 5px;
+}
+
+.t-badge {
+  display: inline-block;
+  border: 1px solid darkgray;
+  background-color: white;
+  border-radius: 5px;
+  margin-right: 5px;
+  padding: 2px 5px;
+}
+
+.t-badge-pill {
+  border-radius: 1000px;
+}
+
+.t-label-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.t-badge-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.t-label-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.t-badge-outline-primary {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.t-label-secondary {
+  background-color: #868e96;
+  border-color: #868e96;
+  color: white;
+}
+
+.t-badge-secondary {
+  background-color: #868e96;
+  border-color: #868e96;
+  color: white;
+}
+
+.t-label-outline-secondary {
+  border-color: #868e96;
+  color: #868e96;
+}
+
+.t-badge-outline-secondary {
+  border-color: #868e96;
+  color: #868e96;
+}
+
+.t-label-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+.t-badge-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+}
+
+.t-label-outline-success {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.t-badge-outline-success {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+.t-label-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: white;
+}
+
+.t-badge-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: white;
+}
+
+.t-label-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.t-badge-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+}
+
+.t-label-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: white;
+}
+
+.t-badge-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: white;
+}
+
+.t-label-outline-warning {
+  border-color: #ffc107;
+  color: #ffc107;
+}
+
+.t-badge-outline-warning {
+  border-color: #ffc107;
+  color: #ffc107;
+}
+
+.t-label-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: white;
+}
+
+.t-badge-info {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  color: white;
+}
+
+.t-label-outline-info {
+  border-color: #17a2b8;
+  color: #17a2b8;
+}
+
+.t-badge-outline-info {
+  border-color: #17a2b8;
+  color: #17a2b8;
+}
+
+.t-label-light {
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.t-badge-light {
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.t-label-outline-light {
+  border-color: #f8f9fa;
+}
+
+.t-badge-outline-light {
+  border-color: #f8f9fa;
+}
+
+.t-label-dark {
+  background-color: #343a40;
+  border-color: #343a40;
+  color: white;
+}
+
+.t-badge-dark {
+  background-color: #343a40;
+  border-color: #343a40;
+  color: white;
+}
+
+.t-label-outline-dark {
+  border-color: #343a40;
+  color: #343a40;
+}
+
+.t-badge-outline-dark {
+  border-color: #343a40;
+  color: #343a40;
+}
+
+.t-label-inverse {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.t-badge-inverse {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.t-label-outline-inverse {
+  border-color: black;
+}
+
+.t-badge-outline-inverse {
+  border-color: black;
+}
+
+.t-clearfix:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+.t-clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.test-border-black {
+  border: 2px solid black;
+}
+
+.test-border-blue {
+  border: 2px solid blue;
+}
+
+.test-border-red {
+  border: 2px solid red;
+}
+
+.thead-darkgrey th {
+  color: white;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+/*# sourceMappingURL=t_core.css.map */

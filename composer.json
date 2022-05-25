@@ -1,0 +1,58 @@
+{
+  "name": "tiger/tiger",
+  "description": "Tiger is an easy-to-use PHP Framework",
+  "type": "project",
+  "keywords": [
+    "MVC",
+    "Framework",
+    "PHP",
+    "Angular"
+  ],
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Rudy Mas",
+      "email": "rudy.mas@rmssoft.be",
+      "homepage": "https://www.rmsoft.be/",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@rmsoft.be",
+    "source": "https://github.com/RudyMas/tiger"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=8.1",
+    "tiger/core": "^0.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.20",
+    "squizlabs/php_codesniffer": "^3.6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Controller\\": "src/controller",
+      "Helper\\": "src/helper",
+      "Model\\": "src/model",
+      "Repository\\": "src/repository",
+      "Test\\": "test",
+      "View\\": "src/view"
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "composer dump-autoload -o",
+      "npm install"
+    ],
+    "post-update-cmd": [
+      "composer dump-autoload -o",
+      "npm update --save"
+    ]
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
+  }
+}
