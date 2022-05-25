@@ -14,9 +14,9 @@
 const USE_DATABASE = false;
 
 /**
- * Set USE_LOGIN to true if you want to use the EasyMVC login system
- * Set USE_EMAIL_LOGIN to true if you want to use the E-mail address to login with
- *                     or to false if you want to use an Username to login with
+ * Set USE_LOGIN to true if you want to use the Tiger's login system
+ * Set USE_EMAIL_LOGIN to true if you want to use the E-mail address to log in with
+ *                     or to false if you want to use a Username to log in with
  */
 const USE_LOGIN = false;
 const USE_EMAIL_LOGIN = false;
@@ -27,12 +27,12 @@ const USE_EMAIL_LOGIN = false;
 const USE_HTTP_REQUEST = false;
 
 /**
- * Set this to true if you want to use the EasyMVC Menu system
+ * Set this to true if you want to use the Tiger's Menu system
  */
 const USE_MENU = false;
 
 /**
- * Set USE_EMAIL to true if you want to use the EasyMVC E-mail system
+ * Set USE_EMAIL to true if you want to use the Tiger's E-mail system
  * Set USE_SMTP to true if you want to use your personal SMTP server instead of the one used by your hosting server
  */
 const USE_EMAIL = false;

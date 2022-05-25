@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is used to set up the develop, alpha, beta & production servers.
+ * This file is used to config the develop-, alpha-, beta- & production-servers.
  * Set these parameters to reflect your environment in which you work.
  *
  * SERVER_DEVELOP is used for the test server you use. On this server the file 'config.local.php' & 'database.local.php' will be used.
@@ -16,6 +16,11 @@ const SERVER_DEVELOP = 'localhost';
 const SERVER_ALPHA = 'localhost';
 const SERVER_BETA = 'localhost';
 const SERVER_PRODUCTION = 'example.com';
+
+/**
+ * Set this to true if you want extra information provided by the server when an error occurs
+ */
+const TIGER_DEBUG = false;
 
 /**
  * Define the time_zone the server should work on
