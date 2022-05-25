@@ -15,5 +15,5 @@ session_start();
 require_once('vendor/autoload.php');
 
 
-define('TIGER_VERSION', '7.1.1.0');
+const TIGER_VERSION = '7.1.1.0';
 $Core = new Core();
