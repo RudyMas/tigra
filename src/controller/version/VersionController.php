@@ -1,6 +1,6 @@
 <?php
 
-namespace Controllers\version;
+namespace Controller\version;
 
 use Tigra\Controller;
 use Exception;
