@@ -1,6 +1,6 @@
 <?php
 /**
- * Tiger (PHP version 7.4)
+ * Tigra (PHP version 7.4)
  * An easy to use MVC PHP Framework with Mobile App Support.
  *
  * @author      Rudy Mas <rudy.mas@rmsoft.be>
@@ -9,11 +9,11 @@
  * @version     7.4.1.0
  */
 
-use Tiger\Core;
+use Tigra\Core;
 
 session_start();
 require_once('vendor/autoload.php');
 
 
-const TIGER_VERSION = '7.4.1.0';
+const TIGRA_VERSION = '7.4.1.0';
 $Core = new Core();

@@ -1,12 +1,12 @@
-# Tiger
-Tiger an easy-to-use PHP Framework
+# Tigra Framework
+Tigra an easy-to-use PHP Framework
 
 ## Installation
 
-Creating an new Tiger project can be done with the following command:
+Creating a new Tigra project can be done with the following command:
 
 ````
-composer create-project tiger/tiger <project_name>
+composer create-project tigra/tigra <project_name>
 ````
 
 ## Documentation

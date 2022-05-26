@@ -2,7 +2,7 @@
 
 namespace Controllers\version;
 
-use Tiger\Controller;
+use Tigra\Controller;
 use Exception;
 
 /**
@@ -12,7 +12,7 @@ use Exception;
 class VersionController extends Controller
 {
     /**
-     * To display the version status of Tiger and the website
+     * To display the version status of Tigra and the website
      */
     public function version()
     {

@@ -1,4 +1,4 @@
-# Tiger specific restrictions
+# Tigra specific restrictions
 
 /config/config.php
 /config/config.local.php
@@ -9,7 +9,7 @@
 /config/database.alpha.php
 /config/database.beta.php
 
-# End Tiger specific restrictions
+# End Tigra specific restrictions
 
 # Created by https://www.toptal.com/developers/gitignore/api/node,angular,composer,phpstorm+all,webstorm+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,angular,composer,phpstorm+all,webstorm+all

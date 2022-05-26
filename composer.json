@@ -1,6 +1,6 @@
 {
-  "name": "tiger/tiger",
-  "description": "Tiger is an easy-to-use PHP Framework",
+  "name": "tigra/tigra",
+  "description": "Tigra is an easy-to-use PHP Framework",
   "type": "project",
   "keywords": [
     "MVC",
@@ -19,12 +19,12 @@
   ],
   "support": {
     "email": "support@rmsoft.be",
-    "source": "https://github.com/RudyMas/tiger"
+    "source": "https://github.com/RudyMas/tigra"
   },
   "minimum-stability": "stable",
   "require": {
     "php": ">=7.4",
-    "tiger/core": "^7.4"
+    "tigra/core": "^7.4"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5.20",

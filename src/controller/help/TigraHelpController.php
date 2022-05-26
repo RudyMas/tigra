@@ -2,14 +2,14 @@
 
 namespace Controller\help;
 
-use Tiger\Controller;
+use Tigra\Controller;
 
 /**
- * Class TigerHelpController
+ * Class TigraHelpController
  *
  * @package Controllers
  */
-class TigerHelpController extends Controller
+class TigraHelpController extends Controller
 {
 //    private $DB;
 //    private $Login;
@@ -18,7 +18,7 @@ class TigerHelpController extends Controller
 //    private $Menu;
 
     /**
-     * TigerHelpController constructor.
+     * TigraHelpController constructor.
      * @param array $args
      */
     public function __construct(array $args)

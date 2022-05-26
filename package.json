@@ -1,7 +1,7 @@
 {
-  "name": "tiger",
+  "name": "tigra",
   "private": true,
-  "description": "Tiger JavaScript Dependencies",
+  "description": "Tigra's JavaScript Dependencies",
   "author": "Rudy Mas",
   "license": "ISC",
   "dependencies": {

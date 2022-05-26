@@ -20,7 +20,7 @@ const SERVER_PRODUCTION = 'example.com';
 /**
  * Set this to true if you want extra information provided by the server when an error occurs
  */
-const TIGER_DEBUG = false;
+const TIGRA_DEBUG = false;
 
 /**
  * Define the time_zone the server should work on

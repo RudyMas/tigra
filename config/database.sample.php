@@ -3,7 +3,7 @@
  * Settings for all your databases you use
  * In most cases this will be only one database but support for multiple databases is included in the framework
  *
- * The first database always need to have the objectName DBconnect. Tiger's Router & Login-system expect this to be the name to make it work
+ * The first database always need to have the objectName DBconnect. Tigra's Router & Login-system expect this to be the name to make it work
  */
 $database[0]['objectName'] = 'DBconnect';
 $database[0]['dbHost'] = 'localhost';
